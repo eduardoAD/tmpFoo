@@ -16,6 +16,15 @@
 		E458B01119F980F6009B274B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E458B01019F980F6009B274B /* Images.xcassets */; };
 		E458B01419F980F6009B274B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E458B01219F980F6009B274B /* LaunchScreen.xib */; };
 		E458B02019F980F6009B274B /* tmpFooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E458B01F19F980F6009B274B /* tmpFooTests.m */; };
+		E4DA5CF11A0D3B0D00C4FCAB /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5CF01A0D3B0D00C4FCAB /* TextFieldValidator.m */; };
+		E4DA5D041A0D68A500C4FCAB /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5CF41A0D68A500C4FCAB /* AbstractActionSheetPicker.m */; };
+		E4DA5D051A0D68A500C4FCAB /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5CF61A0D68A500C4FCAB /* ActionSheetCustomPicker.m */; };
+		E4DA5D061A0D68A500C4FCAB /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5CF91A0D68A500C4FCAB /* ActionSheetDatePicker.m */; };
+		E4DA5D071A0D68A500C4FCAB /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5CFB1A0D68A500C4FCAB /* ActionSheetDistancePicker.m */; };
+		E4DA5D081A0D68A500C4FCAB /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5CFD1A0D68A500C4FCAB /* ActionSheetLocalePicker.m */; };
+		E4DA5D091A0D68A500C4FCAB /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5CFF1A0D68A500C4FCAB /* ActionSheetStringPicker.m */; };
+		E4DA5D0A1A0D68A500C4FCAB /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5D011A0D68A500C4FCAB /* DistancePickerView.m */; };
+		E4DA5D0B1A0D68A500C4FCAB /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DA5D031A0D68A500C4FCAB /* SWActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,25 @@
 		E458B01919F980F6009B274B /* tmpFooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tmpFooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E458B01E19F980F6009B274B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E458B01F19F980F6009B274B /* tmpFooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tmpFooTests.m; sourceTree = "<group>"; };
+		E4DA5CEF1A0D3B0D00C4FCAB /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
+		E4DA5CF01A0D3B0D00C4FCAB /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
+		E4DA5CF31A0D68A500C4FCAB /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		E4DA5CF41A0D68A500C4FCAB /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		E4DA5CF51A0D68A500C4FCAB /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		E4DA5CF61A0D68A500C4FCAB /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		E4DA5CF71A0D68A500C4FCAB /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		E4DA5CF81A0D68A500C4FCAB /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		E4DA5CF91A0D68A500C4FCAB /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		E4DA5CFA1A0D68A500C4FCAB /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		E4DA5CFB1A0D68A500C4FCAB /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		E4DA5CFC1A0D68A500C4FCAB /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		E4DA5CFD1A0D68A500C4FCAB /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		E4DA5CFE1A0D68A500C4FCAB /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		E4DA5CFF1A0D68A500C4FCAB /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		E4DA5D001A0D68A500C4FCAB /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		E4DA5D011A0D68A500C4FCAB /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		E4DA5D021A0D68A500C4FCAB /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		E4DA5D031A0D68A500C4FCAB /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +114,8 @@
 		E458AFFC19F980F6009B274B /* tmpFoo */ = {
 			isa = PBXGroup;
 			children = (
+				E4DA5CF21A0D68A500C4FCAB /* Pickers */,
+				E4DA5CEE1A0D3AE900C4FCAB /* TextFieldValidator */,
 				E458B00119F980F6009B274B /* AppDelegate.h */,
 				E458B00219F980F6009B274B /* AppDelegate.m */,
 				E458B00719F980F6009B274B /* MasterViewController.h */,
@@ -125,6 +155,39 @@
 				E458B01E19F980F6009B274B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4DA5CEE1A0D3AE900C4FCAB /* TextFieldValidator */ = {
+			isa = PBXGroup;
+			children = (
+				E4DA5CEF1A0D3B0D00C4FCAB /* TextFieldValidator.h */,
+				E4DA5CF01A0D3B0D00C4FCAB /* TextFieldValidator.m */,
+			);
+			name = TextFieldValidator;
+			sourceTree = "<group>";
+		};
+		E4DA5CF21A0D68A500C4FCAB /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				E4DA5CF31A0D68A500C4FCAB /* AbstractActionSheetPicker.h */,
+				E4DA5CF41A0D68A500C4FCAB /* AbstractActionSheetPicker.m */,
+				E4DA5CF51A0D68A500C4FCAB /* ActionSheetCustomPicker.h */,
+				E4DA5CF61A0D68A500C4FCAB /* ActionSheetCustomPicker.m */,
+				E4DA5CF71A0D68A500C4FCAB /* ActionSheetCustomPickerDelegate.h */,
+				E4DA5CF81A0D68A500C4FCAB /* ActionSheetDatePicker.h */,
+				E4DA5CF91A0D68A500C4FCAB /* ActionSheetDatePicker.m */,
+				E4DA5CFA1A0D68A500C4FCAB /* ActionSheetDistancePicker.h */,
+				E4DA5CFB1A0D68A500C4FCAB /* ActionSheetDistancePicker.m */,
+				E4DA5CFC1A0D68A500C4FCAB /* ActionSheetLocalePicker.h */,
+				E4DA5CFD1A0D68A500C4FCAB /* ActionSheetLocalePicker.m */,
+				E4DA5CFE1A0D68A500C4FCAB /* ActionSheetStringPicker.h */,
+				E4DA5CFF1A0D68A500C4FCAB /* ActionSheetStringPicker.m */,
+				E4DA5D001A0D68A500C4FCAB /* DistancePickerView.h */,
+				E4DA5D011A0D68A500C4FCAB /* DistancePickerView.m */,
+				E4DA5D021A0D68A500C4FCAB /* SWActionSheet.h */,
+				E4DA5D031A0D68A500C4FCAB /* SWActionSheet.m */,
+			);
+			path = Pickers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,10 +290,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DA5D091A0D68A500C4FCAB /* ActionSheetStringPicker.m in Sources */,
 				E458B00C19F980F6009B274B /* DetailViewController.m in Sources */,
+				E4DA5D081A0D68A500C4FCAB /* ActionSheetLocalePicker.m in Sources */,
+				E4DA5D041A0D68A500C4FCAB /* AbstractActionSheetPicker.m in Sources */,
+				E4DA5D0A1A0D68A500C4FCAB /* DistancePickerView.m in Sources */,
 				E458B00919F980F6009B274B /* MasterViewController.m in Sources */,
 				E458B00619F980F6009B274B /* tmpFoo.xcdatamodeld in Sources */,
+				E4DA5D0B1A0D68A500C4FCAB /* SWActionSheet.m in Sources */,
+				E4DA5D051A0D68A500C4FCAB /* ActionSheetCustomPicker.m in Sources */,
 				E458B00319F980F6009B274B /* AppDelegate.m in Sources */,
+				E4DA5D061A0D68A500C4FCAB /* ActionSheetDatePicker.m in Sources */,
+				E4DA5CF11A0D3B0D00C4FCAB /* TextFieldValidator.m in Sources */,
+				E4DA5D071A0D68A500C4FCAB /* ActionSheetDistancePicker.m in Sources */,
 				E458B00019F980F6009B274B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tmpFoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -365,6 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tmpFoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -422,6 +496,7 @@
 				E458B02519F980F6009B274B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E458B02619F980F6009B274B /* Build configuration list for PBXNativeTarget "tmpFooTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +505,7 @@
 				E458B02819F980F6009B274B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
